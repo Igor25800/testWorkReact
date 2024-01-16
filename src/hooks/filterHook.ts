@@ -7,5 +7,5 @@ export const useFilter = (array: TableItem[], profileId: string | undefined, key
             return array.filter((item: any) =>  item[key] === profileId );
         }
         return [];
-    }, [profileId, array]);
+    }, [profileId, array, key]);
 }

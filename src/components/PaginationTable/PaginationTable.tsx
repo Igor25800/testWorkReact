@@ -11,6 +11,7 @@ const PaginationTable: FC<PaginationProps> = ({totalPages, currentPage,handleCha
     if (totalPages <= 1) {
         return ;
     }
+
     return (
         <div>
             <Pagination>
