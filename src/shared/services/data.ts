@@ -97,6 +97,12 @@ export const dataProfile: Array<ProfileInterface> = [
         marketplace: 'Amazon'
     },
     {
+        profileId: 'isa213',
+        accountId: 'isa212',
+        country: 'Barbados',
+        marketplace: 'Barama'
+    },
+    {
         profileId: 'isa212',
         accountId: 'isa212',
         country: 'Afghanistan',
